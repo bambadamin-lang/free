@@ -16,13 +16,13 @@ min-height:100vh;
 }
 .box-wrapper {
 position: relative;
-background:rgba(255,255,255,0.9);
+background:rgba(0, 0, 0, 0.9);
 border-radius:20px;
 padding:5vw;
 max-width:400px;
 width:90%;
 text-align:center;
-box-shadow:0 8px 25px rgba(0,186,148,0.25);
+box-shadow:0 8px 25px #0093c0d7;
 overflow:hidden;
 }
 .box-wrapper::before {
@@ -31,7 +31,7 @@ position: absolute;
 inset: 0;
 background:
 linear-gradient(to top, rgba(255,255,255,2), rgba(255,255,255,0)),
-url("https://i.ibb.co/wZfSLQpk/wingo-png-1.png") center/50% no-repeat;
+url("https://i.ibb.co/7tkncd95/image-2025-10-12-032516129-1.png") center/50% no-repeat;
 opacity: 0.9;
 z-index: 0;
 pointer-events: none;
@@ -51,18 +51,18 @@ direction:ltr;
 }
 .time-box, .dynamic-counter-wrapper {
 backdrop-filter: blur(3px) saturate(140%);
-background: rgba(255, 255, 255, 0.1);
+background: #79797963;
 border: 1px solid rgba(255, 255, 255, 0.25);
 border-radius: 12px;
 padding: 0.6em 1em;
 min-width: 60px;
 flex: 1;
-box-shadow: 0 4px 15px rgba(0,186,148,0.4);
+box-shadow: 0 4px 15px #0093c0d7;
 transition: transform 0.2s ease, box-shadow 0.2s ease;
 animation: boxGlow 1.75s ease-in-out infinite;
 }
 .time-box:hover, .dynamic-counter-wrapper:hover {
-box-shadow: 0 0 25px rgba(0,186,148,0.8);
+box-shadow: 0 0 25px #0093c0d7;
 transform: scale(1.05);
 }
 .time-box span:first-child, .counter-box {
@@ -89,24 +89,23 @@ font-weight:bold;
 @keyframes neonGlow {
 0%, 100% {
 text-shadow:
-0 0 2px #00ba94,
-0 0 4px #00ba94,
-0 0 6px #00ba94;
+0 0 2px #d8a90f,
+0 0 4px #d8a90f,
+0 0 6px #d8a90f;
 }
 50% {
 text-shadow:
-0 0 5px #00ba94,
-0 0 10px #00ba94,
-0 0 15px #00ba94,
-0 0 20px #00ba94,
-0 0 25px #00ba94;
+0 0 5px #d8a90f,
+0 0 10px #d8a90f,
+0 0 15px #d8a90f,
+0 0 20px #d8a90f,
 }
 }
 @keyframes boxGlow {
-0%,100% { box-shadow:0 2px 8px rgba(0,186,148,0.3); }
-25% { box-shadow:0 4px 16px rgba(0,186,148,0.5); }
-50% { box-shadow:0 6px 24px rgba(0,186,148,0.7); }
-75% { box-shadow:0 4px 16px rgba(0,186,148,0.5); }
+0%,100% { box-shadow:0 2px 8px #d8a90f; }
+25% { box-shadow:0 4px 16px #d8a90f; }
+50% { box-shadow:0 6px 24px #d8a90f; }
+75% { box-shadow:0 4px 16px #d8a90f; }
 }
 </style>
 </head>
